@@ -1,0 +1,7 @@
+A chronological list of RefStack test results, so you can track the progress
+of what I did to make the module compliant with the OpenStack Interoperability
+Standard.
+
+https://refstack.openstack.org/#/results/05dbf55f-ff36-4807-9d86-a415bbbe9945
+https://refstack.openstack.org/#/results/509550cb-8d90-4fa3-8f52-d32a5bb90b47
+https://refstack.openstack.org/#/results/0889c33a-50d3-4b2f-8c18-85c35be99dfd

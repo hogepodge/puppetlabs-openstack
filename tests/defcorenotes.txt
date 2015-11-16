@@ -1,0 +1,11 @@
+Some things to check if you're failing tests.
+
+* Set your default security groups to have ssh access. You'll need it!
+* Has nova been configured to use the correct floating pool in neutron (no such pool error)
+* Has tempest failed and leaked resources? (a 509?) (security groups, ports) 
+    - Use the openstack client to delete any resources that haven't been cleaned up,
+    - There's a script that does the same?
+Is there node starvation? (list nodes wants three nodes across two flavors, knock flavor down)
+    - In a test environment, it's best to make your test flavors as small as possible
+Can't ssh? Try deleting and recreating the router. I think there's a weird race condition in router creation.
+    - Neutron with gre/ovs. Ugh. Go buy yourself a real third-party solution
