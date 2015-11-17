@@ -7,3 +7,4 @@ https://refstack.openstack.org/#/results/509550cb-8d90-4fa3-8f52-d32a5bb90b47
 https://refstack.openstack.org/#/results/0889c33a-50d3-4b2f-8c18-85c35be99dfd
 https://refstack.openstack.org/#/results/7c036971-766b-4234-93d6-dd42156f731d
 https://refstack.openstack.org/#/results/f3bd3a55-07fc-4333-a38c-77d712decc98 (passing 2015.07 compute)
+https://refstack.openstack.org/#/results/2baf7093-8b3a-460c-8b8c-7cf3a67e9ec5 (passing 2015.07 platform)
